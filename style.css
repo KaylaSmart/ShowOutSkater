@@ -179,6 +179,14 @@ img {
     color:white;
     font-family: "Contrail one";
     background-image: url("images2/Screen\ Shot\ 2019-11-04\ at\ 1.08.35\ AM.png");
+      /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
   .container-fluid,h1, h3{
