@@ -10,31 +10,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Contrail+One&display=swap" rel="stylesheet">
         <link href="css/hover.css" rel="stylesheet" media="all">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="css/stylesheet2.css"> -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        <!-- <link rel="stylesheet" href="css/stylesheet2.css"> -->
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="images2/1x/faV.png" type="image/png"  >
+        <link rel="icon" href="images2/1x/faV.png" type="image/png">
+    
     </head>
     
-
+<body>
 <!--  navbar -->
-<nav class="site-header sticky-top py-1 .navbar-collapse">
-  <div class="container d-flex flex-column flex-md-row justify-content-between">
-    
-   <a> <img id="logo-top" src="images2/1x/Asset 2.png" ></a> 
+<!-- <nav class=" navbar navbar-expand-md  site-header sticky-top py-1 navbar-collapse flex-column-">
+    <a class="navbar-brand"> <img id="logo-top" src="images2/1x/Asset 2.png" ></a> 
+  <div class="container d-flex flex-column flex-md-row justify-content-between collapse navbar-collapse"> -->
     <!-- <a class="py-2" href="#">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
     </a> -->
-    <a class="py-2 d-none d-md-inline-block" href="#">Shop</a>
+    <!-- <a class="py-2 d-none d-md-inline-block" href="#">Shop</a>
     <a class="py-2 d-none d-md-inline-block" href="#">About</a>
     <a class="py-2 d-none d-md-inline-block" href="#">Battle League</a>
     <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
     <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
     <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
   </div>
-</nav>
+  <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+</nav> -->
 
+<nav class="navbar navbar-expand-lg navbar-dark  site-header fixed-top ">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <a class="navbar-brand" href="#"><img id="logo-top" src="images2/1x/Asset 2.png" ></a> 
+    <!-- <div class="container d-flex flex-column flex-md-row justify-content-between collapse navbar-collapse"> -->
 
+    <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-md-center " id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto mx-auto px-5 ">
+        <li class="nav-item active ">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>   
+        <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Battle League</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Support</a>
+          </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+      <!-- </div> -->
+    </div>
+  </nav>
+<!-- navbarend -->
 
 <div class="jumbotron">
     <div id="black">
@@ -44,27 +89,56 @@
   </div>
     <div class="overlay"></div>
     <div class="container">
-      <h1 id="logo">SHOWOUT SKATER</h1>
+      <!-- <h1 id="logo">SHOWOUT SKATER</h1> -->
+      <img class="logo" src="images2/ss.png">
     </div>
   </div>
 
- <!-- header video -->
 
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center header flex-md-row"> 
-      <div class="col-lg p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">GET YOUR GEAR</h1>
-      
-      </div>
-      <div class="k col-lg col-md col-sm">
+  <!-- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center header flex-md-row"> 
               <img class="gear "  src="images2/IMG_0701.jpg">
-              <div class="left">SHIRTS</div>
+              <div class="left"><h2>SHIRTS</h2></div>
               <img class="gear "  src="images2/whereslugo-fxD7uSsxZSQ-unsplash.jpg">
-              <div class="centered">HOODIES</div>
+              <div class="centered"><h2>HOODIES</h2></div>
             <img class="gear"  src="images2/back-view-backpack-blur-398639.jpg">
-            <div class="right">ACCESORIES</div>
-          </div>
-          <h1 class="display-4 font-weight-normal">Now Show Out</h1>
+            <div class="right"><h3>ACCESORIES</h3></div>
+</div>  -->
+
+
+<div class="container">
+  <div class="row justify-content-center">
+      <h1 class="display-4 font-weight-normal">GET YOUR GEAR</h1>
+
+  </div>
+
+  <div class="row ">
+    <div class="col col-xsm-4">
+      <img class="gear "  src="images2/IMG_0701.jpg">
+      <!-- <div class="left"><h2>SHIRTS</h2></div> -->
+    </div>
+    <!-- <div class="w-100 d-none d-md-block"></div> -->
+    <div class="col col-xsm-4">
+      <img class="gear "  src="images2/whereslugo-fxD7uSsxZSQ-unsplash.jpg">
+      <!-- <div class="centered"><h2>HOODIES</h2></div> -->
+    </div>
+    <div class="col  col-xsm-4">
+      <img class="gear"  src="images2/back-view-backpack-blur-398639.jpg">
+      <!-- <div class="right"><h3>ACCESORIES</h3></div> -->
+    </div>
+
+  </div>
+  <div class="row justify-content-center">
+      <h1 class="display-4 font-weight-normal">Now Show Out</h1>
+
+  </div>
+
 </div>
+
+
+
+
+
+
 <div id="triangle-down"></div>
   
 
@@ -332,7 +406,9 @@
           </div>
         </div>
       </footer>
+      <script src="app.js" ></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </body>
       </html>
-      
