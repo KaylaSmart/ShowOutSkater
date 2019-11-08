@@ -1,3 +1,4 @@
+
 .container {
     max-width: 960px;
   }
@@ -5,25 +6,31 @@
   /*
    * Custom translucent site header
    */
+
+   .nav-item{
+    margin-right:90px;
+  }
   
   .site-header {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
-  .site-header a {
+  /* .site-header a {
     color: #999;
     transition: ease-in-out color .15s;
   }
   .site-header a:hover {
     color: #fff;
     text-decoration: none;
-  }
+  } */
   
   /*
    * Dummy devices (replace them with your own or something else entirely!)
    */
   
+
+
    video {
     position: absolute;
       right: 0;
@@ -36,10 +43,12 @@
       background-size: cover;
   }
   
+
   .jumbotron {
     height: 100vh;
     width: 100vw;
     position: relative;
+    display: flex;
   }
   
   .jumbotron .container {
@@ -52,6 +61,7 @@
     font-size: 48px;  
     font-family: 'Shift', sans-serif;
     font-weight: bold;
+   
   }
   
   .jumbotron p {
@@ -59,7 +69,7 @@
     color: #fff;
   }
 
-.overlay {
+  .overlay {
         position: absolute;
         width: 100%; /* Full width (cover the whole page) */
         height: 100%; /* Full height (cover the whole page) */
@@ -71,6 +81,13 @@
         /* z-index: 1; Specify a stack order in case you're using a different order for other elements */
   }
 
+  .logo{
+    margin-top:10%;
+  }
+  .header{
+  display: flex;
+  flex-direction: row;
+}
    .header-video {
     position: relative;
     overflow: hidden;
@@ -133,6 +150,46 @@ img {
 }
 
 
+/* Icon 2*/
+
+.animated-icon2 span:nth-child(1) {
+  top: 0px;
+  }
+  
+  .animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+  top: 10px;
+  }
+  
+  .animated-icon2 span:nth-child(4) {
+  top: 20px;
+  }
+  
+  .animated-icon2.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+  }
+  
+  .animated-icon2.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  }
+  
+  .animated-icon2.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  }
+  
+  .animated-icon2.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+  }
+  
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -179,6 +236,7 @@ img {
     color:white;
     font-family: "Contrail one";
     background-image: url("images2/Screen\ Shot\ 2019-11-04\ at\ 1.08.35\ AM.png");
+    /* Set a specific height */
       /* Set a specific height */
   height: 500px;
 
@@ -203,6 +261,7 @@ img {
   }
   .k{
    margin-bottom:5%;
+   display: flex;
   } 
   .gear{
       width: 20rem;
@@ -220,6 +279,7 @@ img {
     left: 20%;
     transform: translate(-50%, -50%);
     color: white;
+    display: flex;
   }
 
   .right{
@@ -230,6 +290,8 @@ img {
     left: 80%;
     transform: translate(-50%, -50%);
     color: white;
+    display: flex;
+
   }
   .centered {
     font-family: "contrail one";
@@ -239,16 +301,11 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    display: flex;
+
   }
 
-  /* #bgear{
-    border-left: 15px solid black;
-    border-bottom: 15px solid black ;
-    position: absolute;
-    top:50%;
-    bottom: 0;
-  } */
-
+  
   .product-device {
     position: absolute;
     right: 10%;
