@@ -1,4 +1,7 @@
-var images = [ "images2/blackgold.png","images2/IMG_2146.jpg", "images2/IMG_2144.png",
+var images = [ "images2/shortcropf.png", "images2/shortcropb.png", "images2/redshort.jpg",
+  "images2/blackgold.png",
+ "images2/IMG_2146.jpg",
+"images2/IMG_2144.png",
 "images2/IMG_2143.png",
 "images2/IMG_2260.jpg",
 "images2/IMG_2261.png",
