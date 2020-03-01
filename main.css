@@ -181,7 +181,8 @@ body{
 
 
 
-video {
+
+#black video{
   position: absolute;
     right: 0;
     bottom: 0;
@@ -195,10 +196,23 @@ video {
 
 .sec-b{
   letter-spacing: 1.6rem;
-  height: 60%;
-  margin-top: 2%;
+  height: 100%;
+ 
 }
 
+
+#myVideo {
+    position: relative;
+      width: auto;
+      min-width: 100%;
+      /* height: auto; */
+      min-height: 30%;
+      background: #000;
+      background: no-repeat cover fixed ;
+  
+  /* min-width: 100%;
+  min-height: 100%; */
+} 
 
 .flip{
   position: absolute ;
@@ -216,6 +230,7 @@ video {
 }
 
 .apex{
+  color: #000;
   font-weight: 900;
   font-size: 5rem;
   text-shadow: crimson;
