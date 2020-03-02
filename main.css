@@ -228,6 +228,9 @@ body{
 .normal{
   letter-spacing: normal;
 }
+.metal{
+  height:55% !important;
+}
 
 .apex{
   color: #000;
