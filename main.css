@@ -827,6 +827,37 @@ a{
   background-size: 100%;
 }
 
+.pur {
+  height: 100%;
+  width:100%;
+  background: url('/images2/purpleFront.jpg') no-repeat;
+  background-size: 100%;
+  
+}
+
+.pur:hover {
+  height: 100%;
+  width:100%;
+  background: url('/images2/purpleback.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.apexx {
+  height: 100%;
+  width:100%;
+  background: url('/images2/ApexFront.jpg') no-repeat;
+  background-size: 100%;
+  
+}
+
+.apexx:hover {
+  height: 100%;
+  width:100%;
+  background: url('/images2/ApexBack.jpg') no-repeat;
+  background-size: 100%;
+}
+
+
 /* INSTAGRAM END */
 
  /* FOOTER START */
